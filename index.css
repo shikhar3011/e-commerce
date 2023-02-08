@@ -1,0 +1,150 @@
+.navbar{
+    /* border: 2px solid red; */
+    height: 80px;
+    font-size: 1.2em;
+    background-color: rgb(4 47 103);
+    color: white;
+    position: relative;
+    right: 7px;
+    bottom: 7px;
+    width: 98vw;
+    display: flex;
+    position:sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.navbar_ul{
+    display: flex;
+    list-style: none;
+    /* background-color: aliceblue; */
+    margin-left: 140px;
+}
+.navbar_ul li{
+    margin: 0px 50px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    cursor:pointer;
+    /* border: 2px solid white; */
+}
+
+.navbar_ul li:hover{
+    color: goldenrod;
+}
+#logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 50px;
+    /* margin: 10px 0px 10px 40px; */
+}
+.body{
+    /* border:2px solid blue; */
+    width: 92vw;
+    height: 100%;
+    list-style: none;       
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+.body li{
+    list-style: none;
+}
+.poster{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #ebabba;
+    margin: 10px 40px;
+    position: relative;
+}
+
+.poster img{
+    height: 300px;
+    width: 300px;
+    cursor:pointer;
+
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+#one{
+    width: 230px;
+    margin: 0px 30px;
+}
+#two{
+    height: 250px;
+    margin-top: 20px;
+}
+#six{
+    height: 250px;
+    margin-top: 20px;
+}
+#seven{
+    height: 250px;
+    margin-top: 20px;
+}
+#eight{
+    height: 200px;
+    margin-top: 40px;
+}
+#nine{
+    height: 200px;
+    width: 250px;
+    margin-top: 40px;
+}
+#twelve{
+    height: 280px;
+    width: 300px;
+}
+#thirteen{
+    margin-top: 40px;
+    height: 200px;
+}
+#fifteen{
+    margin-top: 40px;
+    height: 200px;
+}
+#sixteen{
+    margin-top: 80px;
+    height: 200px;
+}
+#seventeen{
+    width: 250px;
+    margin-left: 20px;
+}
+#nineteen{
+    margin-top: 60px;
+    height: 170px;
+}
+#twenty{
+    width: 150px;
+    margin-left: 80px;
+}
+.poster img:hover{
+    opacity: 20%;
+    z-index: -2;
+}
+.poster .name{
+    height: 300px;
+    width: 300px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    text-align: center;
+    vertical-align: middle;
+    /* color: rgb(0, 254, 21); */
+    color: black;
+    /* color: aqua; */
+}
+.name p{
+    /* background-color: yellow; */
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+

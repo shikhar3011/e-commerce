@@ -1,0 +1,150 @@
+
+.navbar{
+    /* border: 2px solid red; */
+    height: 80px;
+    font-size: 1.2em;
+    background-color: rgb(4 47 103);
+    color: white;
+    position: relative;
+    right: 7px;
+    bottom: 7px;
+    width: 98.3vw;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+
+}
+.navbar_ul{
+    display: flex;
+    list-style: none;
+    /* background-color: aliceblue; */
+    margin-left: 140px;
+}
+.navbar_ul li a{
+    font-size: 1.2rem;
+    cursor:pointer;
+    color: white;
+    text-decoration: none;
+}
+.navbar_ul li{
+    margin: 0px 50px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.navbar_ul li a:hover{
+    color: goldenrod;
+}
+
+.navbar_ul li:hover{
+    color: goldenrod;
+}
+#logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 50px;
+    /* margin: 10px 0px 10px 40px; */
+}
+.container{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'title title title title title'
+    'photo photo photo detail detail'
+    'desc desc desc desc desc'
+    'table_ table_ table_ table_ table_';
+}
+.items{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+#title{
+    grid-area: title;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+#photo{
+    grid-area: photo;
+    
+}
+#detail{
+    grid-area: detail;
+    font-family: 'Cabin', sans-serif;
+}
+#desc{
+    grid-area: desc;
+    font-family: 'Cabin', sans-serif;
+}
+#table_{
+    grid-area: table_;
+    font-family: 'Cabin', sans-serif;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    list-style: none;  
+    grid-gap: 1em;  
+}
+.iphones{
+    /* border: 2px solid red; */
+    align-items: center;
+}
+.iphones img{
+    height: 200px;
+    width: 200px;
+}
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    list-style: none;
+}
+.detail :nth-of-type(odd){
+    font-weight: bold;
+    font-size: 1.2em;
+    /* border: 2px solid red; */
+}
+.ditems{
+    margin: 10px 2px;
+}
+.ati{
+    margin-left: 40px;
+}
+
+/* .elem{
+    border: 2px solid black;
+} */
+.table_{
+    /* border: 2px solid red; */
+    margin: 5px 10px;
+    font-size: 1.9 em;
+    min-width: 1000px;
+    padding-left: 100px;
+}
+.table_ thead tr{
+    background-color:  rgb(4 47 103);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.table_ th, .table_ td{
+    padding: 12px 15px;
+}
+.table_ tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.table_ tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.table_ tbody tr a{
+    text-decoration: none;
+    color: black;
+}
+.table_ tbody tr:last-of-type{
+    border-bottom: 4px solid #009879;
+}
+.title{
+    text-align: center;
+}
+h1{
+    font-family:  'Merriweather', serif;
+}
